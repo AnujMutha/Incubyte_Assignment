@@ -35,6 +35,9 @@ public class StringCalculator {
                 finalAnswer += alphabetPosition;
             }
         }
+        if (negFlag) {
+            throw new IllegalArgumentException("negatives not allowed " + negNumbers);
+        }
         //End
         return finalAnswer;
     }
