@@ -3,7 +3,18 @@ public class Main {
     public static void main(String[] args) {
         //Instantiating the StringCalculator class
         StringCalculator sc = new StringCalculator();
-        //Calling add method by passing string as argumnet
-        System.out.println(sc.add("-1,-2,3,-4,a"));
+        //Calling add method by passing string as argument
+        System.out.println(sc.add("//:\n1:2:3:4:5:a:b"));
     }
 }
+
+/*
+* Test Cases :
+* 1 : ("")
+* 2 : ("1")
+* 3 : ("1,2,3,4")
+* 4 : ("a,b,c,d")
+* 5 : ("1,2,3,4,a,b,c,d")
+* 6 : ("1,2,3\n4,5,6\nA\nb")
+* 7 : ("//:\n1:2:3:4:5:a:b")
+*/
