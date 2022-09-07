@@ -14,7 +14,13 @@ public class StringCalculator {
         } else {
             tokens = StringUtils.splitString(numbers, ",\n");
         }
-
+        for(int i = 0; i < tokens.length; ++i) {
+            if (tokens[i].matches(".*\\d.*")) {
+                if (Integer.parseInt(tokens[i]) <= 1000) {
+                    finalAnswer += Integer.parseInt(tokens[i]);
+                }
+            }
+        }
         //End
         return finalAnswer;
     }
