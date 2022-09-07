@@ -117,3 +117,19 @@ public class Main {
 ```java
 18
 ```
+## 8 : Ignoring number gretaer than 1000
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        //Instantiating the StringCalculator class
+        StringCalculator sc = new StringCalculator();
+        //Calling add method by passing string as argument
+        System.out.println(sc.add("1,2,3,1001,1000,1,2");
+    }
+}
+```
+### Output
+```java
+1009
+```
