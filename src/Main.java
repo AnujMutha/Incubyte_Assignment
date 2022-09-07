@@ -4,7 +4,7 @@ public class Main {
         //Instantiating the StringCalculator class
         StringCalculator sc = new StringCalculator();
         //Calling add method by passing string as argument
-        System.out.println(sc.add("//:\n1:2:3:4:5:a:b"));
+        System.out.println(sc.add("1,2,3,1001,1000,1,2"));
     }
 }
 
@@ -17,4 +17,5 @@ public class Main {
 * 5 : ("1,2,3,4,a,b,c,d")
 * 6 : ("1,2,3\n4,5,6\nA\nb")
 * 7 : ("//:\n1:2:3:4:5:a:b")
+* 8 : ("1,2,3,1001,1000,1,2")
 */
