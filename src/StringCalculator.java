@@ -19,6 +19,10 @@ public class StringCalculator {
                 if (Integer.parseInt(tokens[i]) <= 1000) {
                     finalAnswer += Integer.parseInt(tokens[i]);
                 }
+            }else if (tokens[i].matches(".*[a-zA-Z].*")) {
+                char c = tokens[i].toLowerCase().charAt(0);
+                int alphabetPosition = c - 96;
+                finalAnswer += alphabetPosition;
             }
         }
         //End
