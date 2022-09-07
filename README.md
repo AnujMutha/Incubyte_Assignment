@@ -117,7 +117,7 @@ public class Main {
 ```java
 18
 ```
-## 8 : Ignoring number gretaer than 1000
+## 8 : Ignoring number greater than 1000
 ```java
 public class Main {
 
