@@ -13,6 +13,9 @@ public class Main {
         StringCalculator sc = new StringCalculator();
         //Calling add method by passing string as argument
         System.out.println(sc.add("");
+     }
+  }
+        
 ```
 ### Output
 ```java
